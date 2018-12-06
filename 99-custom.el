@@ -5,7 +5,8 @@
 (setq show-trailing-whitespace t)
 
 (global-set-key "\e\e" 'goto-line)
-(global-set-key (kbd "<C-tab>") (lambda () (interactive) (other-window 1)))
+(global-set-key (kbd "<C-tab>")
+                (lambda () (interactive) (other-window 1)))
 (global-set-key (kbd "C-s-s") 'counsel-ag)
 
 (setq-default indent-tabs-mode nil)
